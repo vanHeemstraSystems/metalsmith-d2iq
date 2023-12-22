@@ -24,4 +24,12 @@ See [README.md](./500/README.md)
 
 See [README.md](./600/README.md)
 
+## 700 - Wrapping Up
+
+See [README.md](./700/README.md)
+
+## 800 - Too Long; Didn't Read (TL;DR)
+
+See [README.md](./800/README.md)
+
 MORE ...

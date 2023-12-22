@@ -22,4 +22,8 @@ containers/app/d2iq/layouts/layout.pug
 
 In addition, create all referenced files also.
 
+
+**TIP**: Checkout the huge list of plugins for MetalSmith at https://metalsmith.io/plugins/
+
+
 MORE ...

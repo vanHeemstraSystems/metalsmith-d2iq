@@ -1,0 +1,16 @@
+- var pageTitle = (title && path != '/') ? (title + ' - ' + siteTitle) : siteTitle
+- var pageDescription = shortDesc || siteDescription
+- var paths = path.split('/')
+
+meta(charset='UTF-8')
+meta(name='viewport', content='width=device-width', initial-scale='1', user-scalable='no')
+title!= pageTitle
+meta(name='description', content=pageDescription)
+link(rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png")
+link(rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png")
+link(rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png")
+link(rel='stylesheet', type='text/css', href='/css/styles.css')
+link(rel='search', type='application/opensearchdescription+xml', href='/assets/opensearch.xml', title=`Search`)
+link(href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i', rel='stylesheet')
+
+<!-- add scripts -->

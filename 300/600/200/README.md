@@ -39,3 +39,7 @@ See [README.md](./900/README.md)
 ## 1000 - Install cross-env
 
 See [README.md](./1000/README.md)
+
+## 1100 - Add Configuration to index.js
+
+See [README.md](./1100/README.md)

@@ -1,6 +1,15 @@
 {
     "plugins": [
-        { "@metalsmith/markdown": {} },
-        { "@metalsmith/layouts": {} }
+        {
+            "@metalsmith/markdown": {}
+        },
+        {
+            "@metalsmith/layouts": {}
+        },
+        {
+            "metalsmith-pug": {
+                "pretty": false
+            }
+        }
     ]
 }

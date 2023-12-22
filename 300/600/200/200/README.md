@@ -14,6 +14,8 @@ $ npm init -y
 $ npm install --save-dev metalsmith @metalsmith/markdown @metalsmith/layouts @metalsmith/collections @metalsmith/permalinks jstransformer-handlebars @types/metalsmith
 ```
 
+That line tells npm to go fetch the current stable versions of our requirements, place them in the *node_modules/* directory, and ```--save-dev``` saves references to these modules as development dependencies in the *package.json* file.
+
 Your ```package.json``` may like like the following:
 
 ```
@@ -97,4 +99,21 @@ Your ```package.json``` may like like the following:
 ```
 containers/app/d2qi/package.json
 
-MORE ...
+When initializing our project folder, ```npm init``` creates an entry point and the default is **index.js**. That’ll be our node script, so let’s create a blank file for now. We’ll also do the same for our template (which we’ll call *layouts/default.hbs*) and we’ll need to set up our source directory with at least one markdown file in it (let’s use the default *src/* folder and add our single page as *src/index.md*).
+
+```
+$ touch index.js
+$ mkdir layouts
+$ touch layouts/default.hbs
+$ mkdir src
+$ touch src/index.md
+```
+
+Ok, that’s our setup and we have now:
+
+1. installed our requirements with npm using *package.json* and *node_modules/*,
+2. set up our script as *index.js*,
+3. created our *layouts/default.hbs* template, and
+4. made our first source file at *src/index.md*.
+
+Keep in mind that this could all be prepared for you in advance with a little bit of project scaffolding - we’re just starting from scratch for the sake of this example. All we have to do now is create some content, create a template, and write the script itself.

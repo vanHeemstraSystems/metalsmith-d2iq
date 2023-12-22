@@ -24,3 +24,10 @@ If you would like to use Typescript in your build file, be sure to install ```@t
 ```
 $ yarn add @types/metalsmith
 ```
+
+Add a ```.gitignore``` file inside the project directory to prevent node_modules from being committed to git.
+
+```
+node_modules
+```
+containers/app/d2iq/.gitignore

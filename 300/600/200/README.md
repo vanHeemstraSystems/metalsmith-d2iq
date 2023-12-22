@@ -32,7 +32,7 @@ See [README.md](./700/README.md)
 
 See [README.md](./800/README.md)
 
-## 900 - Using Jade files (*.pug)
+## 900 - Using Jade/Pug files (*.pug)
 
 See [README.md](./900/README.md)
 
@@ -43,3 +43,7 @@ See [README.md](./1000/README.md)
 ## 1100 - Add Configuration to index.js
 
 See [README.md](./1100/README.md)
+
+## 1200 - Create layouts for Jade/Pug
+
+See [README.md](./1200/README.md)

@@ -34,7 +34,6 @@
     "lodash.clonedeepwith": "^4.5.0",
     "lodash.get": "^4.4.2",
     "marked": "^4.3.0",
-    "metalsmith-pug": "^3.0.1",
     "micromatch": "^4.0.5",
     "minimist": "^1.2.8",
     "ms": "^2.1.2",
@@ -66,7 +65,8 @@
     "@metalsmith/permalinks": "^3.0.0",
     "@types/metalsmith": "^2.6.0",
     "jstransformer-handlebars": "^1.2.0",
-    "metalsmith": "^2.6.2"
+    "metalsmith": "^2.6.2",
+    "metalsmith-pug": "^3.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

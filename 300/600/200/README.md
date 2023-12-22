@@ -35,3 +35,7 @@ See [README.md](./800/README.md)
 ## 900 - Using Jade files (*.pug)
 
 See [README.md](./900/README.md)
+
+## 1000 - Install cross-env
+
+See [README.md](./1000/README.md)

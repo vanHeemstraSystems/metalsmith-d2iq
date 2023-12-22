@@ -65,6 +65,7 @@
     "@metalsmith/markdown": "^1.10.0",
     "@metalsmith/permalinks": "^3.0.0",
     "@types/metalsmith": "^2.6.0",
+    "cross-env": "^7.0.3",
     "jstransformer-handlebars": "^1.2.0",
     "metalsmith": "^2.6.2",
     "metalsmith-pug": "^3.0.1"

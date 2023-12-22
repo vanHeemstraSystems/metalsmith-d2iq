@@ -12,5 +12,10 @@ See [README.md](./200/README.md)
 
 See [README.md](./300/README.md)
 
-MORE ...
+## 400 - Directory Structure
 
+See [README.md](./400/README.md)
+
+## 500 - Starter projects
+
+See [README.md](./500/README.md)

@@ -5,7 +5,7 @@ Instead of using handlebars as the layout standrad, if we want to use jade inste
 ## 100 - Installation
 
 ```
-$ npm install --savedev metalsmith-pug
+$ npm install --savedev metalsmith-pug pug
 ```
 
 ## 200 - Usage

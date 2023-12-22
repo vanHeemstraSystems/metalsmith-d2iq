@@ -41,6 +41,7 @@
     "normalize-path": "^3.0.0",
     "picomatch": "^2.3.1",
     "promise": "^7.3.1",
+    "pug": "^3.0.2",
     "read-metadata": "^1.0.0",
     "readdirp": "^3.6.0",
     "regexparam": "^3.0.0",

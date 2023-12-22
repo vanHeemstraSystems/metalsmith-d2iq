@@ -1,6 +1,8 @@
 # 900 - Using Jade files (*.pug)
 
-Instead of using handlebars as the layout standrad, if we want to use jade instead, we'll make use of [MetalSmith plugin to convert jade files](https://github.com/ahmadnassri/node-metalsmith-pug).
+**NOTE**: Pug was formerly known as Jade.
+
+Instead of using handlebars as the layout standard, if we want to use jade instead, we'll make use of [MetalSmith plugin to convert jade files](https://github.com/ahmadnassri/node-metalsmith-pug).
 
 ## 100 - Installation
 

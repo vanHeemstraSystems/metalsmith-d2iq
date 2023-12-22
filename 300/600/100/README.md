@@ -1,0 +1,9 @@
+# 100 - What we're going to accomplish
+
+In this example, we’re going to run through a very common use case and convert Markdown into HTML. The process to make a basic static site builder is pretty straightforward: We read markdown files from a source directory, convert them from markdown into HTML fragments, put those fragments into a page template, and then save the compiled HTML page(s) into a destination directory.
+
+Keep in mind that the exact same process we’re going to create here could be altered to run nearly any file transformation we’d like. We could be converting LESS into CSS or taking SVG source files and running a few transformations to create slightly different SVG files. The Markdown to HTML example is just that: A single example.
+
+Also note that there are *two ways to run Metalsmith*: with the API by creating a node script or through the CLI by creating a metalsmith.json configuration file. The end results are *the same either way* and it’s really a matter of preference. What we’re going to do here is run through the API approach first. Then, at the end, we’ll convert it into a CLI example that accomplishes the exact same thing. Normally, you just do whichever happens to work best with your comfort level and workflow.
+
+The only requirement to follow along and run your own copy is that you have [a recent version of Node installed](https://nodejs.org/). Aside from Node itself, our project is going to be completely self-contained and there’s nothing to uninstall or clean up afterward except the single directory with all our working files, dependencies, and the compiled results.
